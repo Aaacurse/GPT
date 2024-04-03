@@ -16,6 +16,8 @@ def main():
     load_dotenv()
     
     api_key=os.getenv("GOOGLE_API_KEY")
+    api_key=st.secrets['api_key']
+    
     st.title("PDF-GPT💭")
     st.subheader("Chat-GPT for your PDFs📄🗣️")
     print(api_key)
