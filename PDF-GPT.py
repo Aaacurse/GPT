@@ -16,9 +16,9 @@ def main():
     load_dotenv()
     
     api_key=os.getenv("GOOGLE_API_KEY")
-    api_key=st.secrets['api_key']
     st.title("PDF-GPT💭")
     st.subheader("Chat-GPT for your PDFs📄🗣️")
+    print(api_key)
     with st.sidebar:
         pdf=st.file_uploader("Upload your PDF file📄",type='pdf')
         "LLM: [Google Gemini Pro](https://python.langchain.com/docs/integrations/llms/google_ai)"
