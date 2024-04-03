@@ -15,7 +15,7 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 def main():
     load_dotenv()
     
-    api_key=os.getenv("GOOGLE_API_KEY")
+    #api_key=os.getenv("GOOGLE_API_KEY")
     api_key=st.secrets['api_key']
     
     st.title("PDF-GPT💭")
