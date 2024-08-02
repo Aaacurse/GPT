@@ -1,6 +1,9 @@
-langchain
-faiss-cpu
 streamlit
 PyPDF2
+langchain
+langchain_community
+faiss-cpu
+chromadb
+pickle-mixin
 python-dotenv
-langchain-google-genai
+langchain_google_genai
